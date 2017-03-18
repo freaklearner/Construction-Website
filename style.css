@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+.navbar {
+	margin-bottom: 0;
+	/*background-color: #4169e1;*/
+	z-index: 9999;
+	border: 0;
+	font-size: 14px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+.navbar ul.menubar{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+.navbar li{
+	padding: 5px 5px 5px;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #4169e1;/*#fff !important;*/
+	border-radius: 8px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #fff !important;
+	background-color: blue !important;/*#fff !important;*/
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+.navbar-brand{
+	margin: 10px;
+}
+.service{
+	padding:20px;
+}
+.service .height{
+	text-align: center;
+}
+.service h1{
+	color: gray;
+	letter-spacing: 3px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.service span.line{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #4169e1;
+	display: inline-block;
+	margin: 5px;
+	margin-top:-10px;
+}
+.service .row{
+	margin-top: 50px;
+	padding:0px;
+}
+.service .row .box{
+	
+	padding:0px;
+	background-color: gainsboro;
+}
+.service .row .box img{
+	vertical-align:text-top;
+}
+div.service-content{
+	padding:8px;
+}
