@@ -38,20 +38,21 @@
 	margin: 10px;
 }
 .service{
-	padding:20px;
+	padding-top:18px;
+	padding-bottom:54px;
 }
 .service .height{
 	text-align: center;
 }
-.service h1{
+h1.heading{
 	color: gray;
 	letter-spacing: 3px;
 	font-size: 50px;
 	font-weight: bold;
-	text-align: center;
 	margin-bottom: 0px;
+	padding-left:20px;
 }
-.service span.line{
+span.line{
 	width: 10px;
 	height: 10px;
 	border-radius: 10px;
@@ -61,8 +62,9 @@
 	margin-top:-10px;
 }
 .service .row{
-	margin-top: 50px;
+	margin-top: 80px;
 	padding:0px;
+	
 }
 .service .row .box{
 	
@@ -74,4 +76,13 @@
 }
 div.service-content{
 	padding:8px;
+}
+div.about-us{
+	margin-top:30px;	
+	padding:30px;
+}
+div.about-us p{
+	padding:20px 20px 20px 40px;
+	font-size:20px;
+	
 }
